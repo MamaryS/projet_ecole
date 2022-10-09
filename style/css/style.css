@@ -181,9 +181,8 @@ h5{
     font-size: 20px;
 }
 .venez{
-    background-color:  rgb(183, 241, 234);
+    background: linear-gradient( 90deg, white 5%, rgb(183, 241, 234) 45%, white 100%) ;
     margin-top: 20px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     height: 100px;
     text-align: center;
     padding-left: 8%;
@@ -362,3 +361,9 @@ footer {
         margin-left: 0;
     }
 }       
+
+/* younouss part */
+
+.translateY{
+    transform: translateY(50px);
+}
