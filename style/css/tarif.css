@@ -69,6 +69,9 @@ nav ul li a:hover{
     margin: 10px 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.niveau a{
+    text-decoration: none;
+}
 .prix{
     text-align: center;
 }
@@ -323,3 +326,41 @@ footer {
         margin-left: 0;
     }
 }       
+
+.custome_modal {
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custome_modal a{
+    text-decoration: none;
+}
+
+.close_modal {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+  }
+  
