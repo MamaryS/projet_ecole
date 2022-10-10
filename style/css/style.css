@@ -6,7 +6,7 @@
 .partie1{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../../ressources/images/fond.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../../ressources/images/principale.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -37,6 +37,9 @@ nav ul li a{
     color: white;
     font-size: 15px;
 }
+nav ul li a:hover{
+    color: rgba(0, 195, 255, 0.836);
+}
 .row{
     display: flex;
     height: 88%;
@@ -60,6 +63,9 @@ nav ul li a{
     outline: none;
     margin-top: 30px;
 }
+.btn1:hover{
+    background-color: rgba(0, 195, 255, 0.836);
+}
 .card{
     width: 200px;
     height: 230px;
@@ -75,6 +81,7 @@ nav ul li a{
 }
 .card1{
     background-image: url(../../ressources/images/creche.jpg);
+
 }
 .card2{
     background-image: url(../../ressources/images/maternite.jpg);
@@ -123,37 +130,70 @@ h5{
     text-align: center;
 }
 .bienv{
-    margin-top: 35px;
+    margin-top: 150px;
+}
+.bienv p{
+    font-size: 16px;
+    color: #505050;
+    line-height: 26px;
+    font-weight: 400;
 }
 .bien_offres{
     display: flex;
     margin: auto;
     justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
 
 }
 .offres{
-    background-color: #000;
+    background-color: rgba(255, 255, 255, 0);
     width: auto;
-    height: 80vh;
+    height: 70vh;
+    margin-top: 50px;
 }
 .offre{
     width: 200px;
     height: 300px;
-    background-color: rgba(103, 237, 255, 0.603);
+    background-color: rgba(238, 238, 238, 0.603);
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
     transition: transform 0.5s;
-    align-self: end;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.secu{
+    width: 100%;
+    background-image: url(../../ressources/images/securise.png);
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+.certi{
+    width: 100%;
+    background-image: url(../../ressources/images/certificat.png);
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+.puzz{
+    width: 100%;
+    background-image: url(../../ressources/images/puzzle.png);
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+.text-offre{
+    text-align: center;
+    margin-top: 10%;
 }
 .direction{
     display: flex;
-    background-color: ;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 .boss{
     width: 300px;
@@ -165,7 +205,6 @@ h5{
 
 }
 .descrip{
-    background-color: ;
     width: 40%;
     height: 50vh;
     margin: auto; 
@@ -188,8 +227,6 @@ h5{
     padding-left: 8%;
     padding-right: 8%;
     padding-top: 2%;
-
-
 }
 
 /*******************FOOTER****************/
