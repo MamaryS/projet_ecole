@@ -28,6 +28,7 @@ nav ul li{
     list-style: none;
     display: inline-block;
     margin-left: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 nav ul li a{
     text-decoration: none;
@@ -40,33 +41,50 @@ nav ul li a:hover{
 .tetephoto{
     width: 100%;
     height: 250px;
-    background-image: linear-gradient(rgba(94, 130, 146, 0.37), rgba(169, 195, 207, 0.7)), url(../../ressources/images/bgalerie.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.418)), url(../../ressources/images/bgalerie.png);
     background-position: center;
     background-size: cover;
     margin-top: 1%;
 }
 .tetephoto h1{
-    color: white;
-    text-align: left;
+    text-align: center;
     font-size: 40px;
     padding-top: 8%;
     padding-left: 3%;
+    font-size: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .galeri{
     width: auto;
     height: auto;
     background-color: transparent;
+    
 }
 .propo{
     display: flex;
-    height: 100%;
-    background-color: rgba(0, 255, 255, 0);
+    height: 250px;
+    background-color: #f9f9f9;
     margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+.propo p{
+    font-size: 16px;
+    color: #505050;
+    line-height: 26px;
+    font-weight: 400;
+}
+.propo h1{
+    color: #212121;;
 }
 .pictu{
     width: 200px;
-    height: 900px;
-    background-image: url(../../ressources/images/propos.png);
+    height: 250px;
+    background-image: url(../../ressources/images/mission.jpg);
     border-radius: 10px;
     box-sizing: border-box;
     cursor: pointer;
@@ -74,13 +92,27 @@ nav ul li a:hover{
     background-size: cover;
     flex-basis: 50%;
 }
+.histoire .pictu{
+    background-image: url(../../ressources/images/bg5.png);
+}
+.mission .pictu{
+    background-image: url(../../ressources/images/envie.jpg);
+}
 .ecrit{
-    background-color: #3f72ea00;
+    background-color: #6486d400;
     width: 30%;
     flex-basis: 50%;
     padding-right: 2%;
 }
-
+.trait{
+    width: 100px;
+    height: 5px;
+    background-color: #009dff;
+    border-radius: 0px;
+}
+.mission .ecrit{
+    padding-left: 5%;
+}
 /*******************FOOTER****************/
 footer {
     position: fixed;
