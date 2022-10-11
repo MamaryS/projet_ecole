@@ -6,7 +6,7 @@
 }
 .partie1{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../../ressources/images/principale.jpg);
     background-position: center;
     background-size: cover;
@@ -31,7 +31,7 @@ nav{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 nav ul li a{
     text-decoration: none;
@@ -45,9 +45,15 @@ nav ul li a:hover{
     display: flex;
     height: 88%;
     align-items: center;
+    background-color: #3f72ea00;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 .col{
+    margin: auto;
     flex-basis: 50%;
+    background-color: rgba(0, 255, 255, 0);
 }
 .col h1{
     color: #fff;
@@ -68,7 +74,7 @@ nav ul li a:hover{
     background-color: rgba(0, 195, 255, 0.836);
 }
 .card{
-    width: 200px;
+    width: 165px;
     height: 230px;
     display: inline-block;
     border-radius: 10px;
@@ -102,10 +108,10 @@ h5{
     text-align: center;
 }
 .btn2{
-    width: 100px;
+    width: 60px;
     color: #000;
     font-size: 12px;
-    padding: 12px 0;
+    padding: 8px 0;
     background: #fff;
     border: 0;
     border-radius: 10px;
@@ -132,6 +138,7 @@ h5{
 }
 .bienv{
     margin-top: 150px;
+    background-color: rgba(0, 255, 255, 0);
 }
 .bienv p{
     font-size: 16px;
@@ -141,16 +148,19 @@ h5{
 }
 .bien_offres{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: auto;
-    justify-content: space-between;
+    justify-content: center;
     padding-left: 2%;
     padding-right: 2%;
-
+    height: 100%;
+    background-color: rgba(214, 214, 214, 0.151);
 }
 .offres{
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(119, 17, 17, 0);
     width: auto;
-    height: 70vh;
+    height: 100%;
     margin-top: 50px;
 }
 .offre{
@@ -193,8 +203,12 @@ h5{
 }
 .direction{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 10%;
+    background-color: rgba(214, 214, 214, 0.151);
+    height: 100%;
 }
 .boss{
     width: 300px;
@@ -207,8 +221,10 @@ h5{
 }
 .descrip{
     width: 40%;
-    height: 50vh;
+    height: 100%;
     margin: auto; 
+    margin-top:;
+    background-color: rgba(0, 255, 255, 0);
 }
 .descrip h1{
     font-size: 55px;
@@ -220,10 +236,20 @@ h5{
     font-family: 'Georgia' ;
     font-size: 20px;
 }
+.trait{
+    width: 100%;
+    height: 10px;
+    background-color: #bce6f3ab;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 .venez{
-    background: linear-gradient( 90deg, white 5%, rgb(183, 241, 234) 45%, white 100%) ;
+    background: linear-gradient( 90deg, white 5%, rgba(0, 195, 255, 0.836) 45%, white 100%) ;
     margin-top: 20px;
-    height: 100px;
+    height: 100%;
     text-align: center;
     padding-left: 8%;
     padding-right: 8%;
@@ -232,13 +258,13 @@ h5{
 
 /*******************FOOTER****************/
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 
 @media (max-height:800px) {
     footer {
-        position: static;
+        position: relative;
     }
 }
 
@@ -404,4 +430,65 @@ footer {
 
 .translateY{
     transform: translateY(50px);
+}
+
+@media only screen and (max-width: 1200px) {
+    .bien_offres{
+        text-align: center;
+        align-content: center;
+        align-self: center;
+        margin-bottom: 20%;
+        margin-top: -10%;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .row{
+        display: inline;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .card{
+        width: 135px;
+        height: 200px;
+    }
+    .col h1{
+        margin-top: 8%;
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 869px){
+    .translateY2{
+        transform: translateY(50px);
+    }
+    .direction{
+        text-align: center;
+        align-content: center;
+        align-self: center;
+        display: inline;
+        flex-direction: row;
+    }
+    .descrip{
+        width: 100%;
+        height: 100%;
+        margin: auto; 
+        font-size: 10px;
+        justify-content: center;
+    }
+    .offre{
+        width: 170px;
+        height: 100%;
+        
+    }
+    .boss{
+        width: 200px;
+        height: 300px;
+    
+    }
+    .descrip h1{
+        font-size: 40px;
+    }
+    .descrip h2{
+        font-size: 30px;
+    }
 }
