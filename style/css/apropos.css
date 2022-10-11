@@ -27,7 +27,7 @@ nav{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 40px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 nav ul li a{
@@ -48,25 +48,29 @@ nav ul li a:hover{
 }
 .tetephoto h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
     padding-top: 8%;
     padding-left: 3%;
-    font-size: 36px;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 .galeri{
-    width: auto;
+    width: 70%;
     height: auto;
-    background-color: transparent;
+    background-color: rgba(255, 99, 71, 0); 
+    margin: auto;
+    padding-top: 30px;
     
+}
+.galeri h1{
+    font-size: 35px;
 }
 .propo{
     display: flex;
     height: 250px;
-    background-color: #f9f9f9;
+    background-color: #eb2f2f00;
     margin-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
@@ -79,18 +83,19 @@ nav ul li a:hover{
     font-weight: 400;
 }
 .propo h1{
-    color: #212121;;
+    color: #212121;
 }
 .pictu{
     width: 200px;
     height: 250px;
     background-image: url(../../ressources/images/mission.jpg);
-    border-radius: 10px;
+    border-radius: 0px;
     box-sizing: border-box;
     cursor: pointer;
     background-position: center;
     background-size: cover;
     flex-basis: 50%;
+    background-color: rgba(0, 255, 255, 0);
 }
 .histoire .pictu{
     background-image: url(../../ressources/images/bg5.png);
@@ -98,11 +103,14 @@ nav ul li a:hover{
 .mission .pictu{
     background-image: url(../../ressources/images/envie.jpg);
 }
+.pictu1{
+    box-shadow: 0 0 8px 8px white inset;
+}
 .ecrit{
-    background-color: #6486d400;
+    background-color: #2f5dc900;
     width: 30%;
     flex-basis: 50%;
-    padding-right: 2%;
+    padding-left: 5%;
 }
 .trait{
     width: 100px;
@@ -110,18 +118,16 @@ nav ul li a:hover{
     background-color: #009dff;
     border-radius: 0px;
 }
-.mission .ecrit{
-    padding-left: 5%;
-}
+
 /*******************FOOTER****************/
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 
 @media (max-height:800px) {
     footer {
-        position: static;
+        position: relative;
     }
 }
 
@@ -280,5 +286,31 @@ footer {
     }
     .footer-distributed .footer-center i {
         margin-left: 0;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .propo{
+        display: inline-block;
+        align-items: center;
+        height: auto;
+
+    }
+    .propo h1{
+        font-size: 20px;
+        margin-top: 5%;
+    }
+    .ecrit{
+        width: 80%;
+        padding-right: 0%;
+        margin: auto;
+    }
+    .mission .ecrit{
+        padding-left: 0%;
+    }
+    .pictu{
+        width: 80%;
+        height: 290px;
+        margin: auto;
+        
     }
 }       

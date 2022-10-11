@@ -27,7 +27,7 @@ nav{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 nav ul li a{
     text-decoration: none;
@@ -159,13 +159,13 @@ button:disabled {
 
 /*******************FOOTER****************/
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 
 @media (max-height:800px) {
     footer {
-        position: static;
+        position: relative;
     }
 }
 
@@ -329,6 +329,7 @@ footer {
 
 .custome_modal {
     position: relative;
+    width: 900px;
     padding: 20px;
     background-color: white;
     -webkit-box-sizing: border-box;
