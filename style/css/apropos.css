@@ -288,6 +288,15 @@ footer {
         margin-left: 0;
     }
 }
+@media only screen and (max-width: 950px) {
+    .partie1{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .logo{
+        font-size: 30px;
+    } 
+}
 @media only screen and (max-width: 700px) {
     .propo{
         display: inline-block;

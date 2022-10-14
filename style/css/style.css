@@ -426,7 +426,7 @@ footer {
     }
 }       
 
-/* younouss part */
+/* younouss part */ 
 
 .translateY{
     transform: translateY(50px);
@@ -442,6 +442,13 @@ footer {
     }
 }
 @media only screen and (max-width: 950px) {
+    .partie1{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .logo{
+        font-size: 30px;
+    } 
     .row{
         display: inline;
         flex-direction: row;
