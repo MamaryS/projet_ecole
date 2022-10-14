@@ -38,7 +38,7 @@ nav ul li a{
 nav ul li a:hover{
     color: rgba(0, 195, 255, 0.836);
 }
-.menu__toggle{
+#menu__toggle{
     display: none;
 }
 input [checkbox]{

@@ -33,14 +33,18 @@ nav ul li a{
     color: rgb(0, 0, 0);
     font-size: 15px;
 }
-.menu__toggle{
+#menu__toggle{
     display: none;
+    visibility: hidden;
 }
-input [checkbox]{
+input [type="checkbox"]{
     display: none;
+    visibility: hidden;
+    opacity: 0;
 }
 .menu__btn{
     display: none;
+    visibility: hidden;
 }
 .tetephoto{
     width: 100%;
