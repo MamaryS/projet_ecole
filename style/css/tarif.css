@@ -162,7 +162,7 @@ button:disabled {
     display: flex;
     justify-content: space-between;
     height: 40px;
-    font-size: 80%;
+    font-size: 60%;
     font-family: 'Times New Roman', serif;
 }
 .infoinscip, .infotranche{
@@ -215,13 +215,13 @@ button:disabled {
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
     margin-top: 5%;
-    font-size: 50%;
+    font-size: 70%;
 
 }
 .pieceinfo{
     margin-top: 5%;
     background-color: #ececec77;
-    font-size: 60%;
+    font-size: 90%;
 }
 .check-list {
     margin: 0;
@@ -425,6 +425,19 @@ footer {
     .logo{
         font-size: 30px;
     } 
+    .gtitre{
+        font-size: 60%;
+    }
+    .extitre{
+        font-size: 60%;
+    }
+    .piece{
+        font-size: 50%;
+    
+    }
+    .pieceinfo{
+        font-size: 60%;
+    }
 }      
 
 .custome_modal {
