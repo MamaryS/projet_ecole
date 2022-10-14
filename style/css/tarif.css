@@ -215,12 +215,13 @@ button:disabled {
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
     margin-top: 5%;
-    font-size: 70%;
+    font-size: 50%;
 
 }
 .pieceinfo{
     margin-top: 5%;
     background-color: #ececec77;
+    font-size: 60%;
 }
 .check-list {
     margin: 0;
