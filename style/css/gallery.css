@@ -317,16 +317,19 @@ footer {
   /* элементы меню */
   .menu__item {
     display: block;
-    padding: 55px 24px;
+    padding: 29px 4px;
     color: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
     font-weight: 600;
     text-decoration: none;
     transition: background 0.3s;
+    margin-left: -40px;
+    justify-content: center;
+    align-items: center;
   }
   .menu__item:hover {
-    background-color: #CFD8DC;
+    background-color: rgba(0, 255, 255, 0.897);
   }
   
   #menu__toggle:checked ~ .menu__btn > span {
