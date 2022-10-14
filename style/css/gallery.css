@@ -35,16 +35,6 @@ nav ul li a{
 }
 #menu__toggle{
     display: none;
-    visibility: hidden;
-}
-input [type="checkbox"]{
-    display: none;
-    visibility: hidden;
-    opacity: 0;
-}
-.menu__btn{
-    display: none;
-    visibility: hidden;
 }
 .tetephoto{
     width: 100%;
@@ -321,7 +311,7 @@ footer {
   /* элементы меню */
   .menu__item {
     display: block;
-    padding: 29px 4px;
+    padding: 29px 7px;
     color: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
